@@ -1,0 +1,56 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+div.addform {
+  float: left;
+  z-index: 2;
+  display: none;
+}
+form.addform {
+  float: left;
+  z-index: 2;
+  width: 90%;
+}
+.btn.btn-primary {
+  z-index: 2;
+  float: left;
+  display: inline;
+}
+#main-table-holder {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.panel-body{
+  border-bottom: 1px solid #bce8f1;
+}
+.childtask{
+  text-align: right;
+}
+.hanger{
+  height: 15px;
+  width: 15px;
+  border-left: 4px solid #bce8f1;
+  border-bottom: 4px solid #bce8f1;
+  opacity: 0.7;
+}
+#closed-table-holder {
+  margin-top: 20px;
+  margin-bottom: 20 px;
+}
+#finished-jumbotron {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.closed {
+  opacity: 0.7;
+}
+.strikethrough:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  right: 0;
+  border-top: 1px solid;
+  border-color: inherit;
+}
